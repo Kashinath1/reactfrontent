@@ -1,0 +1,28 @@
+.bestDealCaraouselContainer {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.bestDealCaraouselContainer img {
+    width: 100%;
+    height: 12rem;
+    border-radius: 0.3 rem;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.bestDealCaraouselContainer img:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+    .bestDealCaraouselContainer {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .bestDealCaraouselContainer {
+        width: 80%;
+    }
+}

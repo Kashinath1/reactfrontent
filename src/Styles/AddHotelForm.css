@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --mainColor: #7D0205;
+    --mainColorlight: #E64848;
+    --secondaryColor: #CFE8A9;
+    --textColor: #FFFDE3;
+}
+
+.addHotelFormContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.leftHoteInformation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.rightHotelInformation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.leftHoteInformation input {
+    padding: 1px;
+    width: 70%;
+}
+
+.rightHotelInformation input {
+    width: 70%;
+    padding: 1px;
+}
+
+.addHotelForm {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.addHotelFormContainer h4 {
+    color: var(--mainColor);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.buttons {
+    width: 10rem;
+
+}
+
+.addHotelSubmitButton {
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    border: none;
+    border-radius: 0.3rem;
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+    .addHotelForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .leftHoteInformation input {
+        width: 100%;
+    }
+
+    .rightHotelInformation input {
+        width: 100%;
+    }
+
+
+}

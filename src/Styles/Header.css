@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+
+}
+
+.color_nav {
+    background-color: var(--mainColor);
+    z-index: 1;
+}
+
+
+:root {
+
+    --mainColor: #7D0205;
+    --mainColorlight: #E64848;
+    --secondaryColor: #CFE8A9;
+    --textColor: #FFFDE3;
+}
+
+.navbar-Container {
+    background-image: url('https://cdn.pixabay.com/photo/2014/10/16/08/39/bedroom-490779_960_720.jpg');
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

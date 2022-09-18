@@ -1,0 +1,71 @@
+:root {
+    --mainColor: #7D0205;
+    --mainColorlight: #E64848;
+    --secondaryColor: #CFE8A9;
+    --textColor: #FFFDE3;
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    background-color: var(--mainColor);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact_info {
+    font-size: 1rem;
+    color: var(--textColor);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+}
+
+footer a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--textColor);
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: none;
+    cursor: pointer;
+}
+
+.about_link {
+    color: var(--textColor);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media {
+    align-items: center;
+    display: flex;
+    font-size: 4rem;
+}
+
+.social_media:hover {
+    cursor: pointer;
+
+}
+
+span {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    footer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
